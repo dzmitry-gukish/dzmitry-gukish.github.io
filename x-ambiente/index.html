@@ -25,29 +25,35 @@ body {
 #menus {
     background-color: #515151;
 }
-
+.gray {
+    background-color: #f0f0f0;
+}
+.black {
+    background-color: #909090;
+}
+div {
+    /*border: 1px solid black;*/
+}
 </style>
 </head>
 
 <body>
-<div id="header" class="container">
-    <div class="row">
+<div class="container">
+    <div id="header" class="row">
         <div class="span3">
             <img src="img/ambiente-logo.png" alt=""><br>
         </div>
-        <div style="float: right; text-align: right;">
+        <div class="pull-right">
             <strong>Архитектурное бюро "Амбьенте Архитектс"</strong><br>
             <a href="mailto:info@ambiente.ru?subject=feedback" class="btn"><i class="icon-envelope"></i> info@ambiente.ru</a><br>
             +7(123)456-78-90 <br>
             +7(123)901-23-45 <br>
         </div>
     </div>
-</div>
-<div id="menus" class="container">
-    <div class="row">
+    <div id="menus" class="row">
         <div class="navbar">
             <ul class="nav">
-                <li class="active"><a href="#">Кредо</a></li>
+                <li><a href="#">Кредо</a></li>
                 <li><a href="#">Портфолио</a></li>
                 <li><a href="#">Услуги и цены</a></li>
                 <li><a href="#">Пресса</a></li>
@@ -61,39 +67,202 @@ body {
             <a href="#"><i class="icon-bookmark"></i></a>
         </div>
     </div>
-</div>
-<div id="portfolios" class="container">
-    <div id="myCarousel" class="carousel slide">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-<!-- Carousel items -->
-        <div class="carousel-inner">
-            <div class="active item">
-                <img src="img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+    <div class="row" style="border-bottom: 1 dash gray;">
+        <div class="span1"></div>
+    </div>
+    <div id="portfolios" class="row">
+        <div id="myCarousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+    <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="active item">
+                    <img src="img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/maries-corner-the-kottage-14-900x600.jpeg" alt="">
+                </div>
             </div>
-            <div class="item">
-                <img src="img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+          <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+    </div>
+    <div id="branches">
+        <h2 class="text-center">Наши основные направления</h2>
+        <div>
+            <div class="row">
+                <div class="span4">
+                    <a href="#"><img src="img/sample-1.png" class="img-circle" alt=""></a>
+                </div>
+                <div class="span8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, illum, ipsam, reprehenderit, aperiam aut vitae provident assumenda dignissimos illo iure porro autem odit et architecto consectetur quibusdam tempora quidem quam!</div>
             </div>
-            <div class="item">
-                <img src="img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+            <div class="row">
+                <div class="span8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, numquam, doloremque obcaecati sapiente deserunt quae laborum at autem? Exercitationem, consequatur dolores possimus harum numquam repellat odit rerum nam aut excepturi.</div>
+                <div class="span4">
+                    <a href="#"><img src="img/sample-2.jpg" class="img-circle" alt=""></a>
+                </div>
             </div>
         </div>
-      <!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
-</div>
-<div id="branches"></div>
-<div id="clients"></div>
-<div id="shortinfo"></div>
-<div id="sitemap"></div>
-<div id="contacts"></div>
-<div id="copirights"></div>
+    <div id="clients" class="text-center">
+        <h2>Наши партнеры</h2>
+        <div class="row">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+        </div>
+        <div class="row">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+        </div>
+        <div class="row">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+            <img src="img/partner-logo.png" alt="">
+        </div>
+    </div>
+    <div id="shortinfo"></div>
+    <div id="sitemap" class="text-center">
+        <h2>Карта сайта</h2>
+        <div class="row">
+            <div class="span">
+                <h3><a href="#">Кредо</a></h3>
+                <ul>
+                    <li><a href="#">Надежность</a></li>
+                    <li><a href="#">Коммуникативность</a></li>
+                    <li><a href="#">Практичность</a></li>
+                </ul>
+            </div>
+            <div class="span">
+                <h3><a href="#">Портфолио</a></h3>
+                <ul>
+                    <li><a href="#">Направление А</a>
+                        <ul>
+                            <li><a href="#">Объект A1</a></li>
+                            <li><a href="#">Объект A2</a></li>
+                            <li><a href="#">Объект A3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Направление Б</a>
+                        <ul>
+                            <li><a href="#">Объект Б1</a></li>
+                            <li><a href="#">Объект Б2</a></li>
+                            <li><a href="#">Объект Б3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Направление В</a>
+                        <ul>
+                            <li><a href="#">Объект В1</a></li>
+                            <li><a href="#">Объект В2</a></li>
+                            <li><a href="#">Объект В3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="span">
+                <h3><a href="#">Услуги и цены</a></h3>
+                <ul>
+                    <li><a href="#">Направление А</a>
+                        <ul>
+                            <li><a href="#">Ценообразование типа А</a></li>
+                            <li><a href="#">Дополнения к типу А</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Направление Б</a>
+                        <ul>
+                            <li><a href="#">Ценообразование типа Б</a></li>
+                            <li><a href="#">Дополнения к типу Б</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Направление В</a>
+                        <ul>
+                            <li><a href="#">Ценообразование типа В</a></li>
+                            <li><a href="#">Дополнения к типу В</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Необычные варианты</a></li>
+                </ul>
+            </div>
+            <div class="span">
+                <h3><a href="#">Пресса</a></h3>
+                <ul>
+                    <li><a href="#">Нечто обычное о типе А</a></li>
+                    <li><a href="#">Еще нечто обычное о типе А</a></li>
+                    <li><a href="#">Нечто обычное о типе Б</a></li>
+                    <li><a href="#">Нечто обычное о типе В</a></li>
+                    <li><a href="#">Нечто экстравагантное об А</a></li>
+                    <li>Пресса о нас
+                    <ul>
+                        <li><a href="#">КМ №4 от 2013</a></li>
+                        <li><a href="#">Блог ЖЖ от Партнера №2</a></li>
+                        <li><a href="#">КМ №753 от 2014</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Ординарное о типе Б</a></li>
+                    <li><a href="#">Запредельное о типе В</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="contacts">
+    </div>
+    <div id="copirights">
+        <div class="row">
+            <div class="span2"><img src="img/ambiente-logo.png" alt="logo"></div>
+            <div class="span10">
+                <small>© 2014 Workteam. Все долго работали, чтобы сказку сделать былью и никто не ушел безнаказанным. Не уйдете и вы, если будете использовать материалы, опубликованные на сайте, в любом удобном виде, которые, наверное, являются объектами авторского и имущественного права. Кроме этого, существует умпомрачительное количество предложений со словами "публичная оферта", способные загнать кого угодно в ужас.</small>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="up-page" style="display: block;">
+        <a href="#" style="position: fixed; z-index: 2000; right: 60px; bottom: 90px; display: block;"><i class="icon-chevron-up"></i>Наверх</a>
+    </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            jQuery("#up-page").hide();
+
+            jQuery(function() {
+                jQuery(window).scroll(function() {
+                    if (jQuery(this).scrollTop() > 120) {
+                        jQuery('#up-page').fadeIn();
+                    } else {
+                        jQuery('#up-page').fadeOut();
+                    }
+                });
+
+                jQuery('#up-page a').click(function() {
+                    jQuery('body,html').animate({
+                        scrollTop: 0
+                    }, 1000);
+                    return false;
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
