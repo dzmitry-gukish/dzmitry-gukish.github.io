@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+}
+
+#header {
+    /*background-color: #123456;*/
+    border: 0;
+    border-bottom: 1px solid gray;
+    /*height: 150px;*/
+}
+
+.no-margin {
+    margin: :;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+#menus {
+    background-color: #515151;
+}
+
+.gray {
+    background-color: #f0f0f0;
+}
+
+.black {
+    background-color: #909090;
+}
+div {
+    /*border: 1px solid black;*/
+}
+
+.carousel .carousel-control {
+    visibility: hidden;
+    top: 50%;
+}
+.carousel:hover .carousel-control {
+    visibility: visible;
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+    height: 500px;
+}
